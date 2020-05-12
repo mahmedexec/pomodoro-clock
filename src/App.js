@@ -225,13 +225,13 @@ class App extends React.Component {
             >
               {this.state.switcher ? "Break" : "Session"}
             </h4>
-            <div
+            <h2
               id="time-left"
               className="p-5  bg-warning col-5 mx-auto text text-center"
               style={timerStyle}
             > 
             {this.mmss()}
-            </div>
+            </h2>
           </div>
           <div className="controls mt-5 container ">
             <h4
